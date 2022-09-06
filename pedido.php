@@ -11,6 +11,6 @@
         if($_POST['bacon']) {
             $opcionais = $opcionais . 'Bacon';
         }
-        echo 'Lanche: ' . $lanche . ' - Opcionais: ' . $opcionais;
+        echo 'Lanche: ' . $lanche . '<br>Opcionais: ' . $opcionais;
     }
 ?>
